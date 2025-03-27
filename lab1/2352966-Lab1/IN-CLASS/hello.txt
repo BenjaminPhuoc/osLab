@@ -1,0 +1,9 @@
+Data Flow The basic workflow of any command is that they takes input and returns
+an output. A command will have 3 data streams including:
+• Standard input(stdin) : The data passed to the command. Stdin is usually
+from the keyboard, but it can also be from a file or another process
+• Standard out(stdout): Is the result returned after successful execution of the
+statement.
+• Standard error(stderr): Is the error returned after executing the command and
+something went wrong. Stdout is usually output to the screen, but can also be
+output to a file or another process

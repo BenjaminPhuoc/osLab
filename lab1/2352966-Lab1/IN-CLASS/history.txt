@@ -1,0 +1,8 @@
+    1  vim hello.txt 
+    2  cat hello.txt 
+    3  tr 'a-z' 'A-Z' < hello.txt 
+    4  wc hello.txt 
+    5  wc hello.txt > summary.txt
+    6  cat summary.txt 
+    7  history > history.txt
+    8  history > history.txt
