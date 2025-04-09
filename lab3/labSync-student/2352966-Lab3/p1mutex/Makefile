@@ -1,7 +1,7 @@
 CC = gcc
-CFLAGS = -Wall -std=c11
-TARGET = main
-SRCS = main.c
+CFLAGS = -Wall -std=c11 -pthread
+TARGET = shrdmem
+SRCS = shrdmem.c
 
 all: $(TARGET)
 

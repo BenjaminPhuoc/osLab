@@ -1,11 +1,11 @@
 CC = gcc
-CFLAGS = -Wall -std=c11
+CFLAGS = -Wall -std=c11 -pthread
 TARGET = main
 SRCS = main.c
 
 all: $(TARGET)
 
-$(TARGET): $(SRCS)
+$(TARGET): $(SRCS) $(HEADERS)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS)
 
 clean:
