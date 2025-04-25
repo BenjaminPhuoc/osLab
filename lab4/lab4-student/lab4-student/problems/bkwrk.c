@@ -140,6 +140,9 @@ int bkwrk_create_worker()
         {
             /* Parent process: record child PID */
             wrkid_tid[i] = pid;
+#ifdef INFO
+            fprintf(stderr, "bkwrk_create_worker got worker %u\n", wrkid_tid[i]);
+#endif
             usleep(100);
         }
 #endif
